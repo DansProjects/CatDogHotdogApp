@@ -6,7 +6,6 @@ import {uploadImageAsync} from './api/predict.api';
 import {styles} from './assets/styles';
 import {UploadOverlay} from './components/UploadOverlay';
 import {UploadedImage} from './components/UploadedImage';
-import {pickImage} from './camera';
 import * as Progress from 'react-native-progress';
 import * as Animatable from 'react-native-animatable';
 import { Ionicons } from '@expo/vector-icons';

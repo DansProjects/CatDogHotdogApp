@@ -1,7 +1,17 @@
 {
-  "expo": {
-    "sdkVersion": "21.0.0",
-    "orientation": "portrait",
-    "privacy": "unlisted"
-  }
+	"expo": {
+		"privacy": "unlisted",
+		"name": "CatDogHotdog",
+		"icon": "./assets/images/catdog-icon.png",
+		"version": "1.0.0",
+		"slug": "catdoghotdogapp",
+		"sdkVersion": "21.0.0",
+		"orientation": "portrait",
+		"ios": {
+		  "bundleIdentifier": "com.dansprojects.catdoghotdog"
+		},
+		"android": {
+		  "package": "com.dansprojects.catdoghotdog"
+		}
+	}
 }
